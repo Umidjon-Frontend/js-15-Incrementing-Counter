@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #e07a5f;
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.counter .item{
+    text-align: center;
+    margin: 25px;
+}
+.counter .item .svg-inline--fa{
+    font-size: 40px;
+}
+.counter .item h1{
+    font-size: 50px;
+    margin: 20px 0;
+    letter-spacing: 2px;
+}
+.counter .item p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
